@@ -17,7 +17,7 @@ export default function Index() {
   return (
     <div className="text-white text-center mt-10">
       <h1 className="text-2xl font-bold">Server-Side Rendered Page</h1>
-      <p className="mt-2 text-lg">{data.message}</p>
+      {/* <p className="mt-2 text-lg">{data.message}</p> */}
     </div>
   );
 }
