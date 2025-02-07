@@ -13,6 +13,7 @@ export const loader: LoaderFunction = async () => {
 
 export default function Index() {
   const data = useLoaderData<typeof loader>();
+console.log(data);
 
   return (
     <div className="text-white text-center mt-10">
